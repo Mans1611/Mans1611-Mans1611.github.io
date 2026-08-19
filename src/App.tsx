@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
-import profilePhoto from '@/imports/Pic_dessert.jpeg'
-import swcLogo from '@/imports/Gemini_Generated_Image_j6tfstj6tfstj6tf.png'
+
+const profilePhoto = `${import.meta.env.BASE_URL}images/Pic_dessert.jpeg`
+const swcLogo = `${import.meta.env.BASE_URL}images/Gemini_Generated_Image_j6tfstj6tfstj6tf.png`
 
 const NAV_ITEMS = ['About', 'Experience', 'Projects', 'YouTube', 'LeetCode', 'Education']
 
